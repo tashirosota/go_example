@@ -4,6 +4,6 @@ import (
 	"net/http"
 )
 
-func Get(w http.ResponseWriter, r *http.Request){
+func Get(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("welcome"))
 }

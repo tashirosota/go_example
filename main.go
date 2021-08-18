@@ -1,9 +1,12 @@
 package main
 
 import (
-	"gigphil/app"
+	chi "gigphil/app"
+
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	godotenv.Load()
 	chi.Setup()
 }
